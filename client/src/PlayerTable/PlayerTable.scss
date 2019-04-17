@@ -3,8 +3,8 @@
 $header-height: 2.5rem;
 
 .player-table {
-  margin-top: 3.5rem;
-  padding-top: calc(#{$header-height} + 1px); // 1px for border of header
+  // margin-top: 3.5rem;
+  // padding-top: calc(#{$header-height} + 1px); // 1px for border of header
 }
 
 .table {
@@ -16,7 +16,7 @@ $header-height: 2.5rem;
     background-color: $pearl;
     border-bottom: 1px solid $fog;
     left: 0;
-    position: fixed;
+    // position: fixed;
     top: 3.5rem;
     z-index: 1;
   }

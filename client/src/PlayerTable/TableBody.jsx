@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Flags from 'react-world-flags';
+import { Button } from '../Components';
 
 import Avatar from '../Avatar';
 import { COUNTRIES } from '../constants';
@@ -20,6 +21,22 @@ const TableBody = ({ players }) => {
             </td>
             <td role="gridcell" className="table__player">
               {name}
+            </td>
+            <td role="gridcell" className="table__winnings">
+              <Button
+                buttonStyle="secondary"
+                buttonText="Edit"
+                onClick={() => {}}
+                type="button"
+              />
+            </td>
+            <td role="gridcell" className="table__winnings">
+              <Button
+                buttonStyle="secondary"
+                buttonText="Delete"
+                onClick={() => {}}
+                type="button"
+              />
             </td>
             <td role="gridcell" className="table__winnings">
               {winnings.toLocaleString(undefined, {
